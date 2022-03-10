@@ -2,7 +2,7 @@
 
 _Learning add blocks_
 
-First html design
+html design
 
 Site published at: https://sergejsrom.github.io/6-html-blocks/
 
