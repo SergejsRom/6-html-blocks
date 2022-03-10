@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main style="display: inline-block; width: 100%; background-color:grey;">
+        <div style="display: inline-block; width: 99%; background-color:rgb(248, 140, 16)">
+            <div style="float: left; width: 30%; height: 150px; background-color:rgb(21, 24, 216);margin: 2px;">
+                a1
+            </div>
+            <div style="float: right; width: 60%; height: 150px; background-color:rgb(21, 24, 216);margin: 2px;">
+                a2
+            </div>
+        </div>
+
+        <div style="display: inline-block; width: 99%; background-color:rgb(248, 140, 16)">
+            <div style="float: left; width: 47%;">
+                <div style="background-color:rgb(109, 216, 21);float: left; width: 70%; height: 150px;margin: 2px;">
+                b1
+                </div>
+                <div style="background-color:rgb(109, 216, 21);float: right; width: 70%; height: 150px;margin: 2px;">
+                    b2
+                </div>
+                <div style="background-color:rgb(109, 216, 21);float: left; width: 70%; height: 150px;margin: 2px;">
+                    b3
+                </div>
+            </div>
+            <div style="float: right; width: 47%;">
+                <div style="background-color:rgb(248, 16, 229); float: right; width: 70%; height: 150px;margin: 2px; ">
+                    c1
+                </div>
+                <div style="background-color:rgb(248, 16, 229);float: left; width: 47%; height: 150px;margin: 2px;">
+                    c2
+                </div>
+                <div style="background-color:rgb(248, 16, 229);float: right; width: 47%; height: 150px;margin: 2px;">
+                    c3
+                </div>
+                <div style="background-color:rgb(248, 16, 229);float: left; width: 70%; height: 150px;margin: 2px;">
+                    c4
+                </div>
+            </div>
+        </div>
+        <div style="display: inline-block; width: 99%; background-color:rgb(248, 140, 16)">
+            <div style="float: left; width: 40%; height: 330px; background-color:rgb(21, 24, 216)">
+                <img src="/image/demo-image.jpg" alt="demo-image" width="99%">
+            </div>
+            <div style="float: right; width: 40%; height: 330px; background-color:rgb(21, 24, 216);">
+                <img src="/image/demo-image.jpg" alt="demo-image" width="99%">
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
+
+<!--
+
+styliaus taisykles sablonas:
+styliaus-savybe: reiksme
+
+elementu tarpusavio atsistumimas:
+margin: 0%;     visomis kriptimis
+margin-left: 0%;
+margin-top: 0%;
+margin-right: 0%;
+margin-bottom: 0%;
+
+Elementu atvaizdavimo budai: RASYTI su style=""
+display: block;      daugumos elementu pradine reiksme
+
+display: inline;     vos keletas - elementai eilute su galimybe persokti i nauja eilute jei netelpa
+
+display: none;       vos keletas - elementai nesimato/nerodomi
+
+display: inline-block;      krenta eilute, bet jei visas elementas netelpa, tai krenta i nauja eile ir niekada nebuna platesnis nei tevinis elementas
+
+Priverstinis elementu nustumimas (horizontaliai) nurodyta kriptymi
+float: left;
+float: right;
+
+Paprastas (standartizuotas) budas kurti universalia struktura:
+display: inline-block;
+width: 100%;
+float: left;
+
+Pas teva inline-block deti
+
+
+-->
